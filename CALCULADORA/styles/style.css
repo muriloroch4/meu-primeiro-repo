@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    text-align: center; /* texto sempre alinhado no meio*/
+    align-items: center; /*imagens e afins sempre alinhado no meio*/
+    flex-direction: column; /*tudo no body está um embaixo do outro separados como colunas*/
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: sans-serif; /*fonte do texto*/
+    font-weight: bolder; /*peso da fonte*/
+}
+
+input{
+    width: 100%; /*largura*/ /*essa porcentagem esta vinculada dentro da tag pai form*/
+    height: 40px; /*altura*/
+    box-sizing: border-box; /*tamanho de uma caixa normal*/
+}
+
+#form {
+    width: 50%;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    width: 100%; /*100% da tag pai form*/
+    height: 40px;
+    box-sizing: border-box;
+}
+
+/*mudar o cursor quando passa por cima do botton*/
+button:hover{
+    cursor: pointer;
+    background-color: rgb(57, 55, 55);
+}
+
+h3 {
+    font-family: sans-serif;
+}
