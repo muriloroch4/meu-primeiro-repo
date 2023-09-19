@@ -9,10 +9,10 @@ Elabore um algoritmo que calcule o imc de uma pessoa e o classifique segundo a t
 */
 
 
-const pesoEmKg = 90;
+const pesoEmKg = 88;
 const alturaEmMetros = 1.80;
 
-imc = pesoEmKg / (alturaEmMetros * alturaEmMetros);
+imc = (pesoEmKg / (alturaEmMetros * alturaEmMetros)).toFixed(2);
 
 if (imc <= 18.5) {
     console.log(`Seu IMC de ${imc} o classifica como ABAIXO DO PESO`);
