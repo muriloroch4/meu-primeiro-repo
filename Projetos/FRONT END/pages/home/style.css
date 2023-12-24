@@ -1,0 +1,32 @@
+.container {
+    /* na ordem, top, lados, bottom, lado*/
+    padding: 64px 165px 0px 165px;
+}
+
+.nav-list {
+  list-style: none;
+
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+}
+
+.hero-section-content {
+  /* largura máxima */
+  max-width: 445px;
+}
+
+.hero-section {
+  background-image: url(../../assets/icons/backgournd-hero.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.sobre-mim-imagem {
+  max-width: 400px;
+}
+
+.logo-setas {
+  max-width: 30px;
+}

@@ -1,0 +1,56 @@
+/* CORES DE TEXTO */
+.color-primary-100 {
+  color: #5fb4a2;
+}
+
+.color-primary-200 {
+  color: #203a4c;
+}
+
+.color-primary-300 {
+  color: #33323d;
+}
+
+.color-secondary-100 {
+  color: #fafafa;
+}
+
+.color-secondary-200 {
+  color: #eaeaeb;
+}
+
+.color-white {
+  color: #fff;
+}
+
+/* CORES DE FUNDO (BACKGROUND) */
+.bg-primary-100 {
+  background-color: #5fb4a2;
+}
+
+.bg-primary-200 {
+  background-color: #203a4c;
+}
+
+.bg-primary-300 {
+  background-color: #33323d;
+}
+
+.bg-secondary-100 {
+  background-color: #fafafa;
+}
+
+.bg-secondary-200 {
+  background-color: #eaeaeb;
+}
+
+/* classe para adicionar uma borda no elemento */
+.border-top-bottom {
+  border-top: 1px solid rgba(51, 50, 62, 0.15);
+  border-bottom: 1px solid rgba(51, 50, 62, 0.15);
+}
+
+/* classe para adicionar opacidade */
+.opacity {
+  opacity: 0.5;
+}

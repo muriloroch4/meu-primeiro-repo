@@ -1,0 +1,19 @@
+/* reseta todas as margens e padding, e diz que todos os elementos tem box-sizing: border-box */
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+body {
+    display: flex; 
+    flex-direction: column; /* os itens vao na direção de baixo para cima */
+
+    min-height: 100vh;/* body tem altura minima de 100vh, ou seja 100% da view port */
+}
+
+a {
+    /* diz que todos os links não terão hiperlinks */
+    text-decoration: none;
+}
