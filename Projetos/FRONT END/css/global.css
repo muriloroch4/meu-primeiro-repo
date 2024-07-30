@@ -7,13 +7,39 @@
 }
 
 body {
-    display: flex; 
-    flex-direction: column; /* os itens vao na direção de baixo para cima */
+    display: flex;
+    flex-direction: column;
+    /* os itens vao na direção de baixo para cima */
 
-    min-height: 100vh;/* body tem altura minima de 100vh, ou seja 100% da view port */
+    min-height: 100vh;
+    /* body tem altura minima de 100vh, ou seja 100% da view port */
 }
 
 a {
     /* diz que todos os links não terão hiperlinks */
     text-decoration: none;
+}
+
+.container {
+    /* na ordem, top, lados, bottom, lado*/
+    padding: 64px 165px 0px 165px;
+    flex-grow: 1; /* significa que essa classe container pode "crescer", ocupando toda a parte em branco
+    e deixando sempre o rodapé na parte de debaixo da página */
+}
+
+.nav-list {
+    list-style: none;
+
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+}
+
+.logo-setas {
+    max-width: 30px;
+}
+
+.rodape {
+    padding-left: 165px;
+    padding-right: 165px;
 }
